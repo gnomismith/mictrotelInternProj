@@ -1,6 +1,8 @@
 # mictrotel-Intern-Proj
 Data Augmentation for Mass Spectrometry Data from MOMA
 
+# Project A
+
 ## 01.Stretch
 stretch(stretchValue); 
 
@@ -63,5 +65,9 @@ Example: sampleType = ‘CsI’
 ![](images/average5.png)
 ![](images/averageAfter.png)
 
+# Project B
+Creating New Data Formats (from 1-Dimensional to 2-Dimensional) to Expand Possible ML Algorithms;
+After filtering by Test ID and Sample Type, mass spectra were ordered by phase and then sorted by Laser Energy (Laser Shots * Laser Intensity)
+Then the stacked spectra were translated into a byte map and each intensity translated into a pixel
 
-
+![](images/2dData.png)
